@@ -1,6 +1,7 @@
 package net.charlietgg.plentyofminerals;
 
 import com.mojang.logging.LogUtils;
+import net.charlietgg.plentyofminerals.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
@@ -45,7 +46,7 @@ public class PlentyOfMinerals {
         // Register the Deferred Register to the mod event bus so blocks get registered
         /* BLOCKS.register(modEventBus); */
         // Register the Deferred Register to the mod event bus so items get registered
-        /* ITEMS.register(modEventBus); */
+        ModItems.register(modEventBus);
         // Register the Deferred Register to the mod event bus so tabs get registered
         /* CREATIVE_MODE_TABS.register(modEventBus); */
 
