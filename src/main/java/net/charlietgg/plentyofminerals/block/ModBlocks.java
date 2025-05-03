@@ -2,6 +2,9 @@ package net.charlietgg.plentyofminerals.block;
 
 import net.charlietgg.plentyofminerals.PlentyOfMinerals;
 import net.charlietgg.plentyofminerals.item.ModItems;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -33,7 +36,8 @@ public class ModBlocks {
     }
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
-        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().setId(ResourceKey.create(Registries.ITEM,
+                ResourceLocation.fromNamespaceAndPath(PlentyOfMinerals.MOD_ID, name)))));
     }
 
     public static void register(IEventBus eventBus) {
