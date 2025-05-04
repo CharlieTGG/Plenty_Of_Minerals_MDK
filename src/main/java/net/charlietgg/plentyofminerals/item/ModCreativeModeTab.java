@@ -26,6 +26,8 @@ public class ModCreativeModeTab {
 
                                 pOutput.accept(ModBlocks.RUBY_BLOCK.get());
 
+                                pOutput.accept(ModBlocks.BISMUTH_ORE.get());
+
                             })).build());
 
     public static void register(IEventBus eventBus) {

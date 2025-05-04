@@ -27,6 +27,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.EMERALD_BLOCK).setId(BLOCKS.key("ruby_block"))
                     .requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> BISMUTH_ORE = registerBlock("bismuth_ore",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).setId(BLOCKS.key("bismuth_ore"))
+                    .requiresCorrectToolForDrops()));
+
     // End of blocks.
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
