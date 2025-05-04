@@ -17,7 +17,7 @@ public class ModCreativeModeTab {
 
     public static final RegistryObject<CreativeModeTab> PLENTY_OF_MINERALS_TAB =
             CREATIVE_MODE_TABS.register("plenty_of_minerals_tab",
-                    () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RUBY.get()))
+                    () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.BISMUTH_ORE.get()))
                             .title(Component.translatable("creativetab.plentyofminerals.plenty_of_minerals_tab"))
                             .displayItems(((pParameters, pOutput) -> {
 
