@@ -42,6 +42,10 @@ public class ModBlocks {
                     .setId(BLOCKS.key("bismuth_ore"))
                     .requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> BISMUTH_BLOCK = registerBlock("bismuth_block",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK).setId(BLOCKS.key("bismth_block"))
+                    .requiresCorrectToolForDrops()));
+
     // End of blocks.
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
