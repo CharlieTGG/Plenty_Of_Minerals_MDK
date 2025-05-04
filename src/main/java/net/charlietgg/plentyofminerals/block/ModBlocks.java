@@ -5,10 +5,12 @@ import net.charlietgg.plentyofminerals.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -28,7 +30,12 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> BISMUTH_ORE = registerBlock("bismuth_ore",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).setId(BLOCKS.key("bismuth_ore"))
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
+                    .sound(new SoundType(
+                            1.0F, 1.0F,
+                            SoundEvents.DEEPSLATE_BREAK, SoundEvents.STONE_STEP,
+                            SoundEvents.STONE_PLACE, SoundEvents.STONE_HIT, SoundEvents.STONE_FALL))
+                    .setId(BLOCKS.key("bismuth_ore"))
                     .requiresCorrectToolForDrops()));
 
     // End of blocks.
