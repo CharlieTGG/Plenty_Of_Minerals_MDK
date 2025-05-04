@@ -22,6 +22,7 @@ public class ModCreativeModeTab {
                             .displayItems(((pParameters, pOutput) -> {
 
                                 pOutput.accept(ModItems.RUBY.get());
+                                pOutput.accept(ModItems.BISMUTH.get());
 
                                 pOutput.accept(ModBlocks.RUBY_BLOCK.get());
 
