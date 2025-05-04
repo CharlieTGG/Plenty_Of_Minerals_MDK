@@ -75,8 +75,6 @@ public class PlentyOfMinerals {
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.RUBY_BLOCK);
-
-            event.accept(ModBlocks.BISMUTH_ORE);
         }
     }
 

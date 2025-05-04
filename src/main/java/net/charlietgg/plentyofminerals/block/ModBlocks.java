@@ -29,6 +29,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.EMERALD_BLOCK).setId(BLOCKS.key("ruby_block"))
                     .requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).setId(BLOCKS.key("ruby_ore"))
+                    .requiresCorrectToolForDrops()));
+
     public static final RegistryObject<Block> BISMUTH_ORE = registerBlock("bismuth_ore",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
                     .sound(new SoundType(
