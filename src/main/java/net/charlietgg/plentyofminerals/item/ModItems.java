@@ -16,6 +16,9 @@ public class ModItems {
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby",
             () -> new Item(new Item.Properties().setId(ITEMS.key("ruby"))));
 
+    public static final RegistryObject<Item> BISMUTH = ITEMS.register("bismuth",
+            () -> new Item(new Item.Properties().setId(ITEMS.key("bismuth"))));
+
     // End of items.
 
     public static void register(IEventBus eventBus) {
