@@ -42,6 +42,18 @@ public class ModBlocks {
                     .setId(BLOCKS.key("bismuth_ore"))
                     .requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE).setId(BLOCKS.key("deepslate_ruby_ore"))
+                    .requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> DEEPSLATE_BISMUTH_ORE = registerBlock("deepslate_bismuth_ore",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE).setId(BLOCKS.key("deepslate_bismuth_ore"))
+                    .requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> END_STONE_BISMUTH_ORE = registerBlock("end_stone_bismuth_ore",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE).setId(BLOCKS.key("end_stone_bismuth_ore"))
+                    .requiresCorrectToolForDrops()));
+
     public static final RegistryObject<Block> BISMUTH_BLOCK = registerBlock("bismuth_block",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK).setId(BLOCKS.key("bismth_block"))
                     .requiresCorrectToolForDrops()));

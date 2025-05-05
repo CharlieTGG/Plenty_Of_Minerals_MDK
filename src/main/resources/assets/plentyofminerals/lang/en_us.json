@@ -8,6 +8,11 @@
   "item.plentyofminerals.ruby_ore": "Ruby Ore",
   "item.plentyofminerals.bismuth_ore": "Bismuth Ore",
 
+  "item.plentyofminerals.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "item.plentyofminerals.deepslate_bismuth_ore": "Deepslate Bismuth Ore",
+
+  "item.plentyofminerals.end_stone_bismuth_ore": "End Stone Bismuth Ore",
+
   "creativetab.plentyofminerals.plenty_of_minerals_tab": "Plenty Of Minerals",
   "creativetab.plentyofminerals.ores_tab": "Ores"
 }

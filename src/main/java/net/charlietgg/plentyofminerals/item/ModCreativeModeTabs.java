@@ -31,6 +31,11 @@ public class ModCreativeModeTabs {
                                 pOutput.accept(ModBlocks.RUBY_ORE.get());
                                 pOutput.accept(ModBlocks.BISMUTH_ORE.get());
 
+                                pOutput.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
+                                pOutput.accept(ModBlocks.DEEPSLATE_BISMUTH_ORE.get());
+
+                                pOutput.accept(ModBlocks.END_STONE_BISMUTH_ORE.get());
+
                             })).build());
 
     public static final RegistryObject<CreativeModeTab> MINERALS_TAB =
@@ -60,6 +65,11 @@ public class ModCreativeModeTabs {
 
                                 pOutput.accept(ModBlocks.RUBY_ORE.get());
                                 pOutput.accept(ModBlocks.BISMUTH_ORE.get());
+
+                                pOutput.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
+                                pOutput.accept(ModBlocks.DEEPSLATE_BISMUTH_ORE.get());
+
+                                pOutput.accept(ModBlocks.END_STONE_BISMUTH_ORE.get());
 
                             })).build());
 
