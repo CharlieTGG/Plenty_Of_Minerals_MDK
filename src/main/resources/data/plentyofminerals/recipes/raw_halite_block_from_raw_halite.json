@@ -8,9 +8,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "plentyofminerals:raw_halite"
-    }
+    "#": "plentyofminerals:raw_halite"
   },
   "result": {
     "item": "plentyofminerals:raw_halite_block",

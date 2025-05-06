@@ -8,9 +8,7 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "plentyofminerals:ruby"
-    }
+    "#": "plentyofminerals:ruby"
   },
   "result": {
     "item": "plentyofminerals:ruby_block",
