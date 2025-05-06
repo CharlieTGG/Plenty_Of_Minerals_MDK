@@ -25,8 +25,12 @@ public class ModCreativeModeTabs {
                                 pOutput.accept(ModItems.RUBY.get());
                                 pOutput.accept(ModItems.BISMUTH.get());
 
+                                pOutput.accept(ModItems.RAW_BISMUTH.get());
+
                                 pOutput.accept(ModBlocks.RUBY_BLOCK.get());
                                 pOutput.accept(ModBlocks.BISMUTH_BLOCK.get());
+
+                                pOutput.accept(ModBlocks.RAW_BISMUTH_BLOCK.get());
 
                                 pOutput.accept(ModBlocks.RUBY_ORE.get());
                                 pOutput.accept(ModBlocks.BISMUTH_ORE.get());

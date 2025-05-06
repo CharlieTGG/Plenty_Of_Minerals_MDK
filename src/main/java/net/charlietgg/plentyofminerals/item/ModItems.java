@@ -19,6 +19,9 @@ public class ModItems {
     public static final RegistryObject<Item> BISMUTH = ITEMS.register("bismuth",
             () -> new Item(new Item.Properties().setId(ITEMS.key("bismuth"))));
 
+    public static final RegistryObject<Item> RAW_BISMUTH = ITEMS.register("raw_bismuth",
+            () -> new Item(new Item.Properties().setId(ITEMS.key("raw_bismuth"))));
+
     // End of items.
 
     public static void register(IEventBus eventBus) {

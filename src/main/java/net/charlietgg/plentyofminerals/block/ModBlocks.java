@@ -55,7 +55,11 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> BISMUTH_BLOCK = registerBlock("bismuth_block",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK).setId(BLOCKS.key("bismth_block"))
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK).setId(BLOCKS.key("bismuth_block"))
+                    .requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> RAW_BISMUTH_BLOCK = registerBlock("raw_bismuth_block",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK).setId(BLOCKS.key("raw_bismuth_block"))
                     .requiresCorrectToolForDrops()));
 
     // End of blocks.

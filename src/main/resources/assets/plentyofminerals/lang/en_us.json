@@ -2,8 +2,12 @@
   "item.plentyofminerals.ruby": "Ruby",
   "item.plentyofminerals.bismuth": "Bismuth",
 
+  "item.plentyofminerals.raw_bismuth": "Raw Bismuth",
+
   "item.plentyofminerals.ruby_block": "Block of Ruby",
   "item.plentyofminerals.bismuth_block": "Block of Bismuth",
+
+  "item.plentyofminerals.raw_bismuth_block": "Block of Raw Bismuth",
 
   "item.plentyofminerals.ruby_ore": "Ruby Ore",
   "item.plentyofminerals.bismuth_ore": "Bismuth Ore",
