@@ -3,10 +3,12 @@
   "category": "misc",
   "group": "plentyofminerals",
   "ingredients": [
-    "plentyofminerals:halite_block"
+    {
+      "item": "plentyofminerals:halite_block"
+    }
   ],
   "result": {
-    "id": "plentyofminerals:halite",
+    "item": "plentyofminerals:halite",
     "count": 9
   }
 }

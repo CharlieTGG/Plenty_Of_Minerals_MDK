@@ -3,10 +3,12 @@
   "category": "misc",
   "group": "plentyofminerals",
   "ingredients": [
-    "plentyofminerals:ruby_block"
+    {
+      "item": "plentyofminerals:ruby_block"
+    }
   ],
   "result": {
-    "id": "plentyofminerals:ruby",
+    "item": "plentyofminerals:ruby",
     "count": 9
   }
 }

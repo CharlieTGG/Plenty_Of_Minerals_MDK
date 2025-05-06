@@ -8,10 +8,12 @@
     "###"
   ],
   "key": {
-    "#": "plentyofminerals:halite"
+    "#": {
+      "item": "plentyofminerals:halite"
+    }
   },
   "result": {
-    "id": "plentyofminerals:halite_block",
+    "item": "plentyofminerals:halite_block",
     "count": 1
   }
 }
