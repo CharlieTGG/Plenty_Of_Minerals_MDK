@@ -58,6 +58,8 @@ public class PlentyOfMinerals {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RUBY);
             event.accept(ModItems.BISMUTH);
+
+            event.accept(ModItems.RAW_BISMUTH);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
