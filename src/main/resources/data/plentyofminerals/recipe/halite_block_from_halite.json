@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "plentyofminerals:halite"
+  },
+  "result": {
+    "id": "plentyofminerals:halite_block",
+    "count": 1
+  }
+}

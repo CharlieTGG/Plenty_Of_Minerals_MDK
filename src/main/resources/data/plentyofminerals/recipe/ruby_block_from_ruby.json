@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "plentyofminerals:ruby"
+  },
+  "result": {
+    "id": "plentyofminerals:ruby_block",
+    "count": 1
+  }
+}
